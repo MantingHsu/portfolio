@@ -1,0 +1,11 @@
+/* src/Footer.css */
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    margin-top: 4rem;
+    background-color: #f9f9f9;
+  }
+  
