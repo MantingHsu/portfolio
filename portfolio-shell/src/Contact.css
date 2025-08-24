@@ -1,0 +1,61 @@
+.contact-container {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .contact-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05em;
+  }
+  
+  .contact-description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 2rem;
+  }
+  
+  .contact-list li {
+    margin: 1rem 0;
+    font-size: 1.05rem;
+  }
+  
+  .contact-list a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact-list a:hover {
+    color: #ff6f61;
+    transform: scale(1.05);
+  }
+  
+  .contact-footer {
+    font-style: italic;
+    color: #666;
+    margin-top: 1.5rem;
+  }
+  
+  /* Fun fade-in animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
